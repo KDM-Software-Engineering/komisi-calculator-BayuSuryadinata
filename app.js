@@ -15,17 +15,15 @@
 // JANGAN HAPUS / UBAH SCRIPT DI BAWAH
 const calculateKomisi = (nilaiKontrak) => {
   if (nilaiKontrak == 1000000){
-    return nilaiKontrak * 0 + 100000
+    return nilaiKontrak * 0 
   }else if (nilaiKontrak >= 5000000){
     return nilaiKontrak * 0.05
-  }else if (nilaiKontrak == 2000000){
-    return 0
   }else{
     return 0
 };
 
 };
-console.log(calculateKomisi())
+console.log(calculateKomisi(2000000))
 
 
 module.exports = calculateKomisi
