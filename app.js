@@ -17,7 +17,7 @@ const calculateKomisi = (nilaiKontrak) => {
   if (nilaiKontrak >= 1000000){
     return nilaiKontrak * 0 + 100000
   }else if (nilaiKontrak >= 5000000){
-    return nilaiKontrak * 0.05
+    return nilaiKontrak * 5/100
   }else{
     return nilaiKontrak * 0
 };
