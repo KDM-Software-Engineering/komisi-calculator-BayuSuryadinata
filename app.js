@@ -23,7 +23,7 @@ const calculateKomisi = (nilaiKontrak) => {
 };
 
 };
-console.log(calculateKomisi(5000000))
+console.log(calculateKomisi())
 
 
 module.exports = calculateKomisi
